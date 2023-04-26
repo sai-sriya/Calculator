@@ -1,0 +1,38 @@
+#calculator{
+    height:26rem;
+    width:23%;
+    border: 1px solid black;
+    position: relative;
+    left:35%;
+    top:5rem;
+}
+input::placeholder{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#values{
+    width:97%;
+    height:25%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-size: 25px;
+    outline: none;
+    pointer-events: none;
+    text-align: right;
+}
+.btn{
+    width:23%;
+    height:3rem;
+    margin-top: 2%;
+    cursor: pointer;
+}
+#buttons{
+    display: flex;
+    padding:1%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#backspace{
+    position: relative;
+    right:51%;
+}
